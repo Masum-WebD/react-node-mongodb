@@ -15,6 +15,8 @@ const Home = () => {
         })
         .then(res=>res.json())
         .then(data=>console.log(data))
+        alert('Successfully Add user')
+        e.target.reset()
     }
     return (
         <div>
